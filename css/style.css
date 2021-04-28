@@ -147,7 +147,7 @@
     justify-content: center;
 }
 .features__itens{
-    width: 600px;
+    width: 830px;
     display: flex;
     align-items: center;
     margin-bottom: 60px;
@@ -161,7 +161,7 @@
     width: 620px;
 }
 .features__icon:hover{
-    color:    #7ddf96;
+    color: #7ddf96;
     transition: 1s;
 }
 .features__itenstitle{
@@ -169,6 +169,12 @@
     font-weight: bolder;
     color: #515a79;
     margin-bottom: 10px;
+}
+@media screen and (max-width:1440px){
+    .features__itens{
+        width: 600px;
+    }
+    
 }
 
 
